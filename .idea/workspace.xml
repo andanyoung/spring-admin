@@ -51,7 +51,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-admin/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -59,6 +62,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.andyoung.springadmin.SpringAdminApplication" />
@@ -80,7 +96,8 @@
       <updated>1618307473673</updated>
       <workItem from="1618307474965" duration="161000" />
       <workItem from="1618307650598" duration="290000" />
-      <workItem from="1618307954348" duration="782000" />
+      <workItem from="1618307954348" duration="1799000" />
+      <workItem from="1618309833574" duration="977000" />
     </task>
     <servers />
   </component>
