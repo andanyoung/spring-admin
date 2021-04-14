@@ -63,7 +63,7 @@
 
     <build>
         <finalName>app</finalName>
-        <defaultGoal>compile</defaultGoal>
+        <defaultGoal>package</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -94,14 +94,32 @@
                 </executions>
                 <configuration>
                     <repository>andanyoung/${project.artifactId}</repository>
-                    <tag>${project.version}</tag>
+                    <tag>latest</tag>
+                    <!--<tag>${project.version}</tag>-->
                     <buildArgs>
                         <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
                     </buildArgs>
                     <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
-                    <!--                    <squash>true</squash>-->
                 </configuration>
             </plugin>
+            <!--            <plugin>-->
+            <!--                <groupId>com.spotify</groupId>-->
+            <!--                <artifactId>docker-maven-plugin</artifactId>-->
+            <!--                <version>1.2.2</version>-->
+            <!--                <configuration>-->
+            <!--                    <imageName>andanyoung/${project.artifactId}</imageName>-->
+            <!--                    <baseImage>openjdk:8-jdk-alpine</baseImage>-->
+            <!--                    <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>-->
+            <!--                    &lt;!&ndash; copy the service's jar file from target into the root directory of the image &ndash;&gt;-->
+            <!--                    <resources>-->
+            <!--                        <resource>-->
+            <!--                            <targetPath>/</targetPath>-->
+            <!--                            <directory>${project.build.directory}</directory>-->
+            <!--                            <include>${project.build.finalName}.jar</include>-->
+            <!--                        </resource>-->
+            <!--                    </resources>-->
+            <!--                </configuration>-->
+            <!--            </plugin>-->
         </plugins>
     </build>
 
