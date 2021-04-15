@@ -67,6 +67,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.andyoung.springadmin.SpringAdminApplication" />
@@ -92,7 +103,7 @@
       <workItem from="1618309833574" duration="13104000" />
       <workItem from="1618395969720" duration="852000" />
       <workItem from="1618455052044" duration="2705000" />
-      <workItem from="1618468964057" duration="1675000" />
+      <workItem from="1618468964057" duration="5033000" />
     </task>
     <servers />
   </component>

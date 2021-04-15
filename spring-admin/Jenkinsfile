@@ -1,0 +1,13 @@
+
+node {
+    stage('拉取代码'){
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/andanyoung/spring-admin.git']]])
+    }
+    stage('编译'){
+        sh "cd spring-admin && mvn clean install"
+    }
+
+    stage('打包'){
+         sh "cd spring-admin && mvn clean package"
+    }
+}

@@ -95,7 +95,6 @@
                 <configuration>
                     <repository>andanyoung/${project.artifactId}</repository>
                     <tag>latest</tag>
-                    <force>true</force>
                     <!--<tag>${project.version}</tag>-->
                     <buildArgs>
                         <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
