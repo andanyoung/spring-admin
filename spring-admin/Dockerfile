@@ -10,4 +10,6 @@ EXPOSE 9020
 
 ADD ${JAR_FILE} app.jar
 
+VOLUME /var/log/spring-admin
+
 ENTRYPOINT /usr/bin/java -Djava.security.egd=file:/dev/./urandom -jar app.jar
