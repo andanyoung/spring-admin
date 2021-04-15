@@ -55,6 +55,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/community-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
@@ -90,7 +91,8 @@
       <workItem from="1618307954348" duration="1799000" />
       <workItem from="1618309833574" duration="13104000" />
       <workItem from="1618395969720" duration="852000" />
-      <workItem from="1618455052044" duration="1442000" />
+      <workItem from="1618455052044" duration="2705000" />
+      <workItem from="1618468964057" duration="12000" />
     </task>
     <servers />
   </component>
